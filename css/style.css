@@ -8,6 +8,8 @@ body {
     background: transparent;  
 }
 
+/* Header */
+
 header {
     border-bottom: 1px solid #E7E9FC;
 }
@@ -93,3 +95,16 @@ span {
     text-transform: uppercase;
     color: #4D5AE5;
 }
+
+/* Header */
+/* Button */
+
+.btn-list {
+    display: inline-block;
+}
+
+.btn-item {
+    display: flex;
+}
+
+/* Button */
