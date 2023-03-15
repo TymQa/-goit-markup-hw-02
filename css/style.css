@@ -23,7 +23,7 @@ ul, li {
 
 .container {
     margin: 0 auto;
-    max-width: 1130px;
+    width: 1130px;
 }
 
 .header-wrapper {
@@ -97,14 +97,124 @@ span {
 }
 
 /* Header */
-/* Button */
 
-.btn-list {
-    display: inline-block;
+/* Main */
+
+.portfolio {
+    padding-top: 96px;
 }
-
-.btn-item {
+.portfolio-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
-/* Button */
+.portfolio-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.portfolio-item {
+}
+.portfolio-item-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-item-btn:is(:hover, :focus) {
+    border: 1px solid #404BBF;
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* Main */
+
+/* portfolio */
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-content-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.portfolio-content-item:nth-child(6) {
+    margin-right: 0;
+}
+
+.portfolio-content-item:nth-child(9) {
+    margin-right: 0;
+}
+
+.portfolio-content-item {
+    margin-right: 22px;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+
+
+.portfolio-subtitle {
+    margin-left: 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-item-text {
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* portfolio */
+
+/* footer */
+
+.footer {
+    background: #2E2F42;
+    display: flex;
+    align-items: center;
+    height: 312px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+
+.footer-logo {
+    margin-right: 76px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    text-decoration: none;
+}
+
+/* footer */
