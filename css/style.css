@@ -1,5 +1,16 @@
+:root {
+    --color-white: #ffffff;
+    --color-ocean: #404bbf;
+    --color-background: #ffffff;
+    --color-iris: #4d5ae5;
+    --color-background-btn: #404bbf;
+    --color-background-main: #2e2f42;
+    --color-main: #434455;
+    --color-cloud: #F4F4FD;
+}
+
 body {
-    color: #434455;
+    color: var(--color-main);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,12 +29,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--color-iris);
     text-decoration: none;
 }
 
 span {
-    color: #2e2f42;
+    color: var(--color-background-main);
     text-decoration: none;
 }
 
@@ -40,11 +51,11 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-background-main);
 }
 
 .header-link:is(:hover, :focus) {
-    color: #404bbf;
+    color: var(--color-ocean);
 }
 
 .header-contact {
@@ -55,17 +66,17 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main);
 }
 
 .header-contact-item:is(:hover, :focus) {
-    color: #404bbf;
+    color: var(--color-ocean);
 }
 
 /* Order */
 
 .order {
-    background-color: #2e2f42;
+    background-color: var(--color-background-main);
 }
 
 .order-title {
@@ -73,7 +84,7 @@ span {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--color-white);
 }
 
 .order-btn {
@@ -83,12 +94,12 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--color-white);
     cursor: pointer;
 }
 
 .order-btn:is(:hover, :focus) {
-    color: #404BBF;
+    background-color: var(--color-background-btn);
 }
 
 /* Order */
@@ -104,13 +115,13 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  #2e2f42;
+    color:  var(--color-background-main);
 }
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main);
 }
 
 /* features */
@@ -122,7 +133,7 @@ span {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--color-background-main);
     text-align: center;
 }
 
@@ -131,7 +142,7 @@ span {
 /* team */
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--color-cloud);
 }
 .team-title {
     font-size: 36px;
@@ -139,23 +150,24 @@ span {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-background-main);
 }
 
 .team-list-item {
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
 }
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-background-main);
 }
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color-main);
 }
 
 /* team */
@@ -163,11 +175,15 @@ span {
 /* footer */
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--color-background-main);
 }
 
 .footer-logo {
-    color: #F4F4FD;
+    color: var(--color-cloud);
+}
+
+.footer-text {
+    color: var(--color-cloud);
 }
 
 /* footer */
@@ -186,14 +202,14 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
+    color: var(--color-iris);
     background-color: #F4F4FD;
     cursor: pointer;
 }
 
 .portfolio-btn:is(:hover, :focus) {
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--color-background);
+    background-color: var(--color-background-btn);
 }
 
 .portfolio-list-btn {
@@ -213,14 +229,14 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-background-main);
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-main);
 }
 
 /* portfolio */
