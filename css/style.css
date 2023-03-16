@@ -8,8 +8,8 @@
 }
 
 body {
-    color: var(--color-main, #434455);
-    background-color: var(--color-background, #ffffff);
+    color: var(--color-main);
+    background-color: var(--color-background);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,12 +28,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-iris, #4d5ae5);
+    color: var(--color-iris);
     text-decoration: none;
 }
 
 span {
-    color: var(--color-background-main, #2e2f42);
+    color: var(--color-background-main);
     text-decoration: none;
 }
 
@@ -50,11 +50,11 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-background-main, #2e2f42);
+    color: var(--color-background-main);
 }
 
 .header-link:is(:hover, :focus) {
-    color: var(--color-background-btn, #404bbf);
+    color: var(--color-background-btn);
 }
 
 .header-contact {
@@ -65,17 +65,17 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main, #434455);
+    color: var(--color-main);
 }
 
 .header-contact-item:is(:hover, :focus) {
-    color: var(--color-background-btn, #404bbf);
+    color: var(--color-background-btn);
 }
 
 /* Order */
 
 .order {
-    background-color: var(--color-background-main, #2e2f42);
+    background-color: var(--color-background-main);
 }
 
 .order-title {
@@ -83,22 +83,22 @@ span {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--color-background, #ffffff);
+    color: var(--color-background);
 }
 
 .order-btn {
-    background-color: var(--color-iris, #4d5ae5);
+    background-color: var(--color-iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--color-background, #ffffff);
+    color: var(--color-background);
     cursor: pointer;
 }
 
 .order-btn:is(:hover, :focus) {
-    background-color: var(--color-background-btn, #404bbf);
+    background-color: var(--color-background-btn);
 }
 
 /* Order */
@@ -114,13 +114,13 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  var(--color-background-main, #2e2f42);
+    color:  var(--color-background-main);
 }
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main, #434455);
+    color: var(--color-main);
 }
 
 /* features */
@@ -132,7 +132,7 @@ span {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--color-background-main, #2e2f42);
+    color: var(--color-background-main);
     text-align: center;
 }
 
@@ -141,7 +141,7 @@ span {
 /* team */
 
 .team {
-    background-color: var(--color-cloud, #f4f4fd);
+    background-color: var(--color-cloud);
 }
 .team-title {
     font-size: 36px;
@@ -153,20 +153,20 @@ span {
 }
 
 .team-list-item {
-    background-color: var(--color-background, #2e2f42);
+    background-color: var(--color-background);
 }
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--color-background-main, #2e2f42);
+    color: var(--color-background-main);
 }
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main, #434455);
+    color: var(--color-main);
 }
 
 /* team */
@@ -174,15 +174,15 @@ span {
 /* footer */
 
 .footer {
-    background-color: var(--color-background-main, #2e2f42);
+    background-color: var(--color-background-main);
 }
 
 .footer-logo {
-    color: var(--color-cloud, #f4f4fd);
+    color: var(--color-cloud);
 }
 
 .footer-text {
-    color: var(--color-cloud, #f4f4fd);
+    color: var(--color-cloud);
 }
 
 /* footer */
@@ -201,14 +201,14 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--color-iris, #4d5ae5);
+    color: var(--color-iris);
     background-color: var(--color-cloud);
     cursor: pointer;
 }
 
 .portfolio-btn:is(:hover, :focus) {
-    color: var(--color-background, #ffffff);
-    background-color: var(--color-background-btn, #404bbf);
+    color: var(--color-background);
+    background-color: var(--color-background-btn);
 }
 
 .portfolio-list-btn {
@@ -228,14 +228,14 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--color-background-main, #2e2f42);
+    color: var(--color-background-main);
 }
 
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main, #434455);
+    color: var(--color-main);
 }
 
 /* portfolio */
