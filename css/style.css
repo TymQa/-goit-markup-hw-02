@@ -7,6 +7,10 @@ body {
     text-decoration: none;
 }
 
+.list {
+    list-style: none;
+}
+
 .header-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -15,4 +19,40 @@ body {
     letter-spacing: 0.03;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+}
+
+span {
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.header-list {
+
+}
+
+.header-item {
+
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #2e2f42;
+}
+
+.header-contact {
+    font-style: normal;
+}
+
+.header-contact-item {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.header-contact-item:is(:hover, :focus) {
+    color: #404bbf;
 }
