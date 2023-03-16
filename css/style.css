@@ -10,9 +10,7 @@
 }
 
 body {
-    color: #434455;
     color: var(--color-main);
-    background-color: #ffffff;
     background-color: var(--color-background);
     font-family: 'Roboto', sans-serif;
 }
@@ -32,13 +30,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
     color: var(--color-iris);
     text-decoration: none;
 }
 
 span {
-    color: #2e2f42;
     color: var(--color-background-main);
     text-decoration: none;
 }
@@ -57,12 +53,10 @@ span {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-background-main);
-    color: #2e2f42;
 }
 
 .header-link:is(:hover, :focus) {
     color: var(--color-ocean);
-    color: #404bbf;
 }
 
 .header-contact {
@@ -73,12 +67,10 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     color: var(--color-main);
 }
 
 .header-contact-item:is(:hover, :focus) {
-    color: #404bbf;
     color: var(--color-ocean);
 }
 
@@ -93,25 +85,21 @@ span {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
     color: var(--color-white);
 }
 
 .order-btn {
     background-color: var(--color-iris);
-    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
     color: var(--color-white);
     cursor: pointer;
 }
 
 .order-btn:is(:hover, :focus) {
-    background-color: #404bbf;
     background-color: var(--color-background-btn);
 }
 
@@ -128,14 +116,12 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     color:  var(--color-background-main);
 }
 .features-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     color: var(--color-main);
 }
 
@@ -148,7 +134,6 @@ span {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
     color: var(--color-background-main);
     text-align: center;
 }
@@ -158,7 +143,6 @@ span {
 /* team */
 
 .team {
-    background-color:  #f4f4fd;
     background-color: var(--color-cloud);
 }
 .team-title {
@@ -167,27 +151,22 @@ span {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
     color: var(--color-background-main);
 }
 
 .team-list-item {
-    background-color: #ffffff;
     background-color: var(--color-white);
 }
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
     color: var(--color-background-main);
 }
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     color: var(--color-main);
 }
 
@@ -196,17 +175,14 @@ span {
 /* footer */
 
 .footer {
-    background-color: #2e2f42;
     background-color: var(--color-background-main);
 }
 
 .footer-logo {
-    color: #f4f4fd;
     color: var(--color-cloud);
 }
 
 .footer-text {
-    color: #f4f4fd;
     color: var(--color-cloud);
 }
 
@@ -227,16 +203,12 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-iris);
-    color: #4d5ae5;
-    background-color: #F4F4FD;
     background-color: var(--color-cloud);
     cursor: pointer;
 }
 
 .portfolio-btn:is(:hover, :focus) {
-    color: #ffffff;
     color: var(--color-background);
-    background-color: #404bbf;
     background-color: var(--color-background-btn);
 }
 
@@ -257,7 +229,6 @@ span {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     color: var(--color-background-main);
 }
 
@@ -265,7 +236,6 @@ span {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     color: var(--color-main);
 }
 
