@@ -43,6 +43,10 @@ span {
     color: #2e2f42;
 }
 
+.header-link:is(:hover, :focus) {
+    color: #404bbf;
+}
+
 .header-contact {
     font-style: normal;
 }
@@ -54,6 +58,6 @@ span {
     color: #434455;
 }
 
-.header-contact-item:hover {
+.header-contact-item:is(:hover, :focus) {
     color: #404bbf;
 }
